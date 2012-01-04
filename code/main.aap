@@ -1,0 +1,15 @@
+
+@from setup import setup_data
+@ver = setup_data['version']
+
+all: dist/uTidylib-$(ver).zip dist/uTidylib-$(ver).win32.exe
+    :print : Done with all
+
+dist/uTidylib-$(ver).zip: setup.py
+    :sys python setup.py sdist
+
+dist/uTidylib-$(ver).win32.exe: setup.py 
+                                tidy/cygtidy-0-99-0.dll
+                                tidy/pvt_ctypes/ctypes.zip
+                                tidy/pvt_ctypes/_ctypes.pyd
+    :sys python setup.py bdist_wininst
