@@ -22,8 +22,8 @@ from tidy.error import *
 # directory too
 thelib = None
 os.environ['PATH'] = "%s%s%s" % (packagedir, os.pathsep, os.environ['PATH'])
-for libname in ('tidy', 'cygtidy-0-99-0', 'libtidy', 'libtidy.so',
-                'libtidy-0.99.so.0', 'tidylib'):
+for libname in ('tidy', 'cygtidy-0-99-0', 'libtidy', 'libtidy.dylib',
+                'libtidy.so', 'libtidy-0.99.so.0', 'tidylib'):
     try:
         thelib = getattr(ctypes.cdll, libname)
         break
@@ -143,6 +143,7 @@ class SinkFactory(FactoryDict):
         return sink
 
 sinkfactory = SinkFactory()
+_tidy.Create.restype = ctypes.POINTER(ctypes.c_void_p)
 
 
 class _Document(object):

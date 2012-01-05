@@ -1,3 +1,15 @@
+Open Bugs @ https://developer.berlios.de/bugs/?group_id=1810
+    * [ Bug #3335 ] utidylib does not honour "accessibility-check 1"
+    * [ Bug #16834 ] Anchor-as-name variable not settable
+    * [ Bug #17927 ] memory leak?
+    * [ Bug #18409 ] can not install via pypi
+
+uTidylib2 (0.2.2)
+    * [ Bug #11746 ] Patch for OS X. Fixes Can't find libtidy.
+      https://developer.berlios.de/bugs/?func=detailbug&bug_id=11746&group_id=1810
+    * [ Bug #14691 ] bindings aren't 64bit safe
+      https://developer.berlios.de/bugs/?func=detailbug&bug_id=14691&group_id=1810
+
 uTidylib2 (0.2.1)
     * Fix handling of 64-bit pointer
       https://github.com/nijel/utidylib/commit/961f0bc243c5f851da34809ae18b9b8b518a0bbc
@@ -5,6 +17,12 @@ uTidylib2 (0.2.1)
       https://github.com/nijel/utidylib/commit/c3e2adb6d81a5a0ce60905e143ed083dd7a22652
     * Add 'tidy' to the list of lib names, so it can be imported correctly
       https://github.com/nijel/utidylib/commit/4d16189fcc45d9486716765676c63d62966cba28
+    * [ Bug #6801 ] can't find libtidy
+      https://developer.berlios.de/bugs/?func=detailbug&bug_id=6801&group_id=1810
+    * [ Bug #14186 ] unicode string causes segmentation fault
+      https://developer.berlios.de/bugs/?func=detailbug&bug_id=14186&group_id=1810
+    * [ Bug #18216 ] import fails on python3.1 under Windows7
+      https://developer.berlios.de/bugs/?func=detailbug&bug_id=18216&group_id=1810
  -- Lachlan de Waard (lachlan.00@gmail.com)
 
 uTidylib (0.2)
