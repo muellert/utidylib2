@@ -4,13 +4,14 @@ Open Bugs @ https://developer.berlios.de/bugs/?group_id=1810
     * [ Bug #17927 ] memory leak?
     * [ Bug #18409 ] can not install via pypi
 
-uTidylib2 (0.2.2)
+uTidylib2 (0.2.2 - Commit 3)
     * [ Bug #11746 ] Patch for OS X. Fixes Can't find libtidy.
       https://developer.berlios.de/bugs/?func=detailbug&bug_id=11746&group_id=1810
     * [ Bug #14691 ] bindings aren't 64bit safe
       https://developer.berlios.de/bugs/?func=detailbug&bug_id=14691&group_id=1810
+ -- Lachlan de Waard (lachlan.00@gmail.com)
 
-uTidylib2 (0.2.1)
+uTidylib2 (0.2.1 - Commit 1)
     * Fix handling of 64-bit pointer
       https://github.com/nijel/utidylib/commit/961f0bc243c5f851da34809ae18b9b8b518a0bbc
     * Fix handling of unicode strings
@@ -25,12 +26,12 @@ uTidylib2 (0.2.1)
       https://developer.berlios.de/bugs/?func=detailbug&bug_id=18216&group_id=1810
  -- Lachlan de Waard (lachlan.00@gmail.com)
 
-uTidylib (0.2)
+uTidylib (0.2 - Original Project Code)
     * More tests for encoding type stuff
     * Improve packaging on win32 (include ctypes and libtidy)
     * Greatly simplify implementation by using tidyParseOptValue() API
  -- Cory Dodt (corydodt@twistedmatrix.com)
 
-uTidylib (0.1)
+uTidylib (0.1 - Original Project Code)
     * Initial release.
  -- Cory Dodt (corydodt@twistedmatrix.com)
