@@ -23,7 +23,7 @@
 """ path.py - An object representing a path to a file or directory.
 
 Original author:
-Jason Orendorff <jason.orendorff\x40gmail\x2ecom>
+Jason Orendorff <jason.orendorff@gmail.com>
 
 Contributors:
 Mikhail Gusarov <dottedmag@dottedmag.net>

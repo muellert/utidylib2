@@ -1,8 +1,7 @@
-Open Bugs @ https://developer.berlios.de/bugs/?group_id=1810
-    * [ Bug #3335 ] utidylib does not honour "accessibility-check 1"
-    * [ Bug #16834 ] Anchor-as-name variable not settable
-    * [ Bug #17927 ] memory leak?
-    * [ Bug #18409 ] can not install via pypi
+uTidylib2 (0.2.2 - Commit 4)
+    * Text files updated for source release
+    * All current bugs/patches on berlios are patched/irrelevant
+ -- Lachlan de Waard (lachlan.00@gmail.com)
 
 uTidylib2 (0.2.2 - Commit 3)
     * [ Bug #11746 ] Patch for OS X. Fixes Can't find libtidy.
